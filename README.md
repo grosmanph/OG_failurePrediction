@@ -28,6 +28,8 @@ For the regressor, I'd select the GradientBoost regressor since it gave the lowe
 
 The following lines give us an idea about how this model would work when it's in production.
 
+[](https://ibb.co/Lr0txFf)
+
 
 The above graph shows us, as one could expect, that the number of cycles until failure drops down as the number of cycles increases. The dashed vertical lines indicate where failures actually occurred. Also, the probability of failure tends to increase whenever a failure gets closer. These results can be monitored so that they can support decision-makers to schedule maintenances and prevent unexpected stops.
 
