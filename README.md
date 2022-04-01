@@ -1,6 +1,6 @@
 # Oil & Gas Equipment Failure Prediction
 
-[](https://assets.spe.org/dims4/default/516db02/2147483647/strip/true/crop/1024x628+0+0/resize/800x491!/quality/90/?url=http%3A%2F%2Fspe-brightspot.s3.amazonaws.com%2F36%2Fb1%2F54da0536d608e68a8e8e8369b68f%2Fjpt-2020-05-29531hero.jpg)
+![](https://assets.spe.org/dims4/default/516db02/2147483647/strip/true/crop/1024x628+0+0/resize/800x491!/quality/90/?url=http%3A%2F%2Fspe-brightspot.s3.amazonaws.com%2F36%2Fb1%2F54da0536d608e68a8e8e8369b68f%2Fjpt-2020-05-29531hero.jpg)
 
 ## Intro
 This assignment involves an FPSO (Floating Production, Storage, and Offloading) vessel, and we need to address an equipment failure problem.
@@ -28,7 +28,7 @@ For the regressor, I'd select the GradientBoost regressor since it gave the lowe
 
 The following lines give us an idea about how this model would work when it's in production.
 
-[](https://i.ibb.co/Sc6ntjp/ndice.png)
+![](https://i.ibb.co/Sc6ntjp/ndice.png)
 
 
 The above graph shows us, as one could expect, that the number of cycles until failure drops down as the number of cycles increases. The dashed vertical lines indicate where failures actually occurred. Also, the probability of failure tends to increase whenever a failure gets closer. These results can be monitored so that they can support decision-makers to schedule maintenances and prevent unexpected stops.
